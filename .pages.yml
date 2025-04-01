@@ -32,3 +32,6 @@ content:
     path: _locations
     view:
       fields: [ coverImage, name ]
+    fields:
+      - { name: name, label: Location Name, type: string, required: true }
+      - { name: coverImage, label: Cover image, type: image }
