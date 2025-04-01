@@ -26,3 +26,9 @@ content:
         fields:
           - { name: url, label: URL, type: image }
       - { name: body, label: Body, type: rich-text }
+  - name: locations
+    label: Locations
+    type: collection
+    path: _locations
+    view:
+      fields: [ coverImage, name ]
